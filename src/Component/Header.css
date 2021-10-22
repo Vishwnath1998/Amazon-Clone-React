@@ -1,0 +1,118 @@
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+.header_logo{
+ width: 100px;
+ object-fit: contain;
+ margin: 0 20px; 
+ margin-top: 10px;
+}
+.header_logo:hover{
+    border: 2px solid #ffff;
+    cursor: pointer;
+}
+.header_text{
+    margin-top: 5px;
+    color: #ffff;
+    font-size: 15px;
+    display: flex;
+    margin:10px 25px 10px 0;
+}
+.header_text > div {
+    display: flex;
+    flex-direction: column;  
+}
+.header_text  span  {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.header_text:hover{
+    border: 2px solid #ffff;
+    cursor: pointer;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.header_input{
+    display: flex;
+    width: 50vw;
+    height: 4vh;
+    border-radius: none;
+}
+/* .search_box:focus-within{
+    border: 2px solid orange;
+    padding: 0px;
+  
+} */
+#dropdown-basic:focus-within{
+    border: 2px solid orange;
+}
+#dropdown-basic{
+    color: rgb(22, 21, 21);
+    background-color: rgb(236, 234, 231);
+    height: 4vh;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#drop:hover{
+    color: #ffff;
+    background-color: rgb(120, 121, 214);
+}
+.search-bar{
+    background-color: rgb(240, 147, 25);
+    color: #ffff;
+    height: 4vh;
+    width: 3vw;
+    padding-top: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 5px;
+    text-decoration: none;
+}
+.navigate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffff;
+    margin-top: 10px;  
+    margin-left: 70px;
+    font-size: 15px;
+ }
+ .navigate:hover{
+     border: 2px solid #ffff;
+     cursor: pointer;
+ }
+ .header_nav a{
+     text-decoration: none;
+ }
+ .navigate a {
+     text-decoration: none;
+ }
+.navigate_two{
+    font-weight: bold;
+}
+.navigate_four{
+    font-weight: bold;
+}
+.navigate_six{
+    font-weight: bold;
+    font-size: 15px;
+}
+.header_count{
+   font-weight: bold;
+}

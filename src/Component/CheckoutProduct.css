@@ -1,0 +1,10 @@
+.CheckoutProduct{
+    display: flex;
+    margin-top: 20px;
+    background-color:#ffff;
+}
+.CheckoutProduct_info{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}

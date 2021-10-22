@@ -1,0 +1,39 @@
+
+.main{
+  /* display: flex;
+  justify-content: center; */
+  max-width: 1910px;
+  background-color: rgb(225, 230, 235);
+}
+.carousel-control-prev-icon{
+  margin-bottom: 400px;
+ 
+}
+.carousel-control-next-icon{
+  margin-bottom: 400px;
+}
+.carousel-indicators{
+  display: none;
+}
+.image{
+  width: 100%;
+  z-index: -1;
+  margin-bottom: 120px;
+  mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+  height: 60vh;
+}
+.home__row {  
+  display: flex; 
+  z-index: 1; 
+}
+.home_row_one{
+  margin-top: 100px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 450px;
+  height: 50%;
+}
+

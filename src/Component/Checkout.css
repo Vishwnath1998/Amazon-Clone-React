@@ -1,0 +1,20 @@
+.checkout{
+    display: flex;
+    background-color:rgb(225, 230, 235); 
+}
+.checkout_left{
+    background-color:#ffff;
+    z-index: 10;
+    margin-top: 10px; 
+}
+.check_image{
+   width: 100%;  
+   margin-top: 10px;
+}
+.checkout_title{
+    border-bottom: 2px solid rgb(78, 77, 77);
+}
+.Checkout_right{
+    background-color: #ffff;
+    margin-top: 10px;
+}
